@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Centre | Jumia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header simple-header"><a class="brand" href="index.html">jumia<span>.</span></a><a
+            href="cart.html" class="muted-link"><i class="fa-solid fa-cart-shopping"></i> My cart</a></header>
+    <main class="page-shell inner-page narrow">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / Help Centre</div>
+        <section class="help-hero"><i class="fa-solid fa-headset"></i>
+            <h1>How can we help you?</h1>
+            <p>Find answers to common questions about shopping with us.</p>
+            <div class="search-wrap help-search"><i class="fa-solid fa-magnifying-glass"></i><input id="faqSearch"
+                    placeholder="Search for help"><button id="faqSearchBtn">Search</button></div>
+        </section>
+        <div class="help-columns">
+            <section class="panel">
+                <h2>Popular topics</h2><a class="help-topic" href="#orders"><i
+                        class="fa-solid fa-box"></i><span><b>Orders & delivery</b><small>Track, change or cancel an
+                            order</small></span><i class="fa-solid fa-chevron-right"></i></a><a class="help-topic"
+                    href="#returns"><i class="fa-solid fa-rotate-left"></i><span><b>Returns & refunds</b><small>Learn
+                            about return policies</small></span><i class="fa-solid fa-chevron-right"></i></a><a
+                    class="help-topic" href="#payments"><i
+                        class="fa-regular fa-credit-card"></i><span><b>Payments</b><small>Payment methods and
+                            issues</small></span><i class="fa-solid fa-chevron-right"></i></a><a class="help-topic"
+                    href="account.html"><i class="fa-regular fa-user"></i><span><b>Account & profile</b><small>Manage
+                            your account</small></span><i class="fa-solid fa-chevron-right"></i></a>
+            </section>
+            <section class="panel faq-panel">
+                <h2>Frequently asked questions</h2>
+                <div class="faq-item" id="orders"><button class="faq-question">How can I track my order?<i
+                            class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">Sign in to your account and open Orders to see the latest order status. This
+                        demo does not connect to a real delivery service.</div>
+                </div>
+                <div class="faq-item" id="returns"><button class="faq-question">What is the return policy?<i
+                            class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">Eligible items may be returned within the stated return window. Check the
+                        individual product page for its return conditions.</div>
+                </div>
+                <div class="faq-item" id="payments"><button class="faq-question">Which payment methods are available?<i
+                            class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">This case study demonstrates pay on delivery and a sample card-payment
+                        option. No real payment is processed.</div>
+                </div>
+                <div class="faq-item"><button class="faq-question">How do I contact customer support?<i
+                            class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">Use the contact form below to demonstrate sending a support request. It is
+                        not connected to a live support team.</div>
+                </div>
+                <form id="supportForm" class="support-form">
+                    <h3>Contact support</h3><label>Your email<input type="email" required
+                            placeholder="you@example.com"></label><label>How can we help?<textarea required rows="3"
+                            placeholder="Describe your issue"></textarea></label><button class="btn btn-orange"
+                        type="submit">Send request</button>
+                    <p class="form-message"></p>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="minimal-footer">© 2026 Jumia case study · <a href="index.html">Continue shopping</a></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

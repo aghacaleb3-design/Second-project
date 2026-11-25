@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Jumia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="auth-body">
+    <header class="auth-header"><a class="brand" href="index.html">jumia<span>.</span></a></header>
+    <main class="auth-card">
+        <div class="auth-icon"><i class="fa-regular fa-user"></i></div>
+        <h1>Welcome back</h1>
+        <p class="muted">Log in to your Jumia account</p>
+        <form class="demo-form" id="loginForm"><label>Email address<input type="email" required
+                    placeholder="Enter your email"></label><label>Password<div class="password-field"><input
+                        type="password" required minlength="6" id="loginPassword"
+                        placeholder="Enter your password"><button type="button" class="toggle-password"
+                        data-target="loginPassword" aria-label="Show password"><i
+                            class="fa-regular fa-eye"></i></button></div></label><a href="#" class="forgot-link"
+                id="forgotPassword">Forgot password?</a><button class="btn btn-orange btn-block" type="submit">Log
+                in</button>
+            <p class="form-message"></p>
+        </form>
+        <div class="auth-divider"><span>NEW TO JUMIA?</span></div><a class="btn btn-outline btn-block"
+            href="register.html">Create an account</a>
+        <p class="auth-terms">By continuing, you agree to Jumia's <a href="#">Terms and Conditions</a>.</p>
+    </main>
+    <footer class="minimal-footer">© 2026 Jumia case study</footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart | Jumia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header simple-header"><a class="brand" href="index.html">jumia<span>.</span></a>
+        <div class="secure-note"><i class="fa-solid fa-lock"></i> Secure checkout</div><a href="help.html"
+            class="muted-link">Need help?</a>
+    </header>
+    <main class="page-shell inner-page">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / My Cart</div>
+        <h1 class="page-title">My Cart <span id="cartHeadingCount">(0 items)</span></h1>
+        <div class="cart-layout">
+            <section class="panel cart-items" id="cartItems"></section>
+            <aside class="panel summary-panel">
+                <h2>Cart summary</h2>
+                <div class="summary-row"><span>Subtotal</span><b id="cartSubtotal">₦ 0</b></div>
+                <div class="summary-row"><span>Delivery</span><span class="muted">Calculated at checkout</span></div>
+                <div class="summary-row total"><span>Total</span><b id="cartTotal">₦ 0</b></div><a href="checkout.html"
+                    class="btn btn-orange btn-block" id="checkoutBtn">Continue to checkout <i
+                        class="fa-solid fa-arrow-right"></i></a>
+                <p class="secure-note"><i class="fa-solid fa-shield-halved"></i> Safe and secure payments</p><a
+                    href="index.html" class="continue-link"><i class="fa-solid fa-arrow-left"></i> Continue shopping</a>
+            </aside>
+        </div>
+    </main>
+    <footer class="minimal-footer">© 2026 Jumia case study · <a href="help.html">Help Centre</a></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

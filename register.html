@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Jumia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="auth-body">
+    <header class="auth-header"><a class="brand" href="index.html">jumia<span>.</span></a></header>
+    <main class="auth-card">
+        <div class="auth-icon"><i class="fa-solid fa-user-plus"></i></div>
+        <h1>Create your account</h1>
+        <p class="muted">Join us for a better shopping experience</p>
+        <form class="demo-form" id="registerForm"><label>Full name<input type="text" required
+                    placeholder="Enter your full name"></label><label>Email address<input type="email" required
+                    placeholder="Enter your email"></label><label>Phone number<input type="tel" required
+                    placeholder="080 0000 0000"></label><label>Password<div class="password-field"><input
+                        type="password" required minlength="6" id="registerPassword"
+                        placeholder="At least 6 characters"><button type="button" class="toggle-password"
+                        data-target="registerPassword" aria-label="Show password"><i
+                            class="fa-regular fa-eye"></i></button></div></label><label class="check-label"><input
+                    type="checkbox" required> I agree to the Terms and Conditions and Privacy Notice.</label><button
+                class="btn btn-orange btn-block" type="submit">Create account</button>
+            <p class="form-message"></p>
+        </form>
+        <p class="auth-bottom">Already have an account? <a href="login.html">Log in</a></p>
+    </main>
+    <footer class="minimal-footer">© 2026 Jumia case study</footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
